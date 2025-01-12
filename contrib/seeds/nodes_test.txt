@@ -1,0 +1,13 @@
+# List of fixed seed nodes for testnet
+
+# IPv4 nodes
+78.57.248.53
+176.57.189.38
+38.242.255.229
+
+# IPv6 nodes
+#[2a02:c207:2041:3853::1]
+
+
+# Onion nodes
+#vtrlmv3zqqqnfwfy.onion
