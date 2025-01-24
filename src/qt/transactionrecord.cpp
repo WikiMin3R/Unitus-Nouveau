@@ -86,11 +86,11 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 }
                 if (wtx.IsCoinStake())
                 {
-                	if (hashPrev == hash)
-                		continue; // last coinstake output
-                	sub.credit = nReward;
-                	hashPrev = hash;
-
+                    sub.type = TransactionRecord::Stake;
+                	    if (hashPrev == hash)
+                		    continue; // last coinstake output
+                	    sub.credit = nReward;
+                	    hashPrev = hash;
                 }
                 parts.append(sub);
             }
@@ -219,7 +219,7 @@ void TransactionRecord::updateStatus(const CWalletTx &wtx)
         }
     }
     // For generated transactions, determine maturity
-    else if(type == TransactionRecord::Generated)
+    else if(type == TransactionRecord::Generated || TransactionRecord::Stake)
     {
         if (wtx.GetBlocksToMaturity() > 0)
         {
