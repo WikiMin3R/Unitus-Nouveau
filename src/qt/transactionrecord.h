@@ -83,6 +83,7 @@ public:
     {
         Other,
         Generated,
+        Stake,
         SendToAddress,
         SendToOther,
         RecvWithAddress,
