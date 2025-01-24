@@ -713,7 +713,7 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/icons/history.png qt/res/icons/info.png \
 	qt/res/icons/key.png qt/res/icons/lock_closed.png \
 	qt/res/icons/lock_open.png qt/res/icons/staking_off.png \
-	qt/res/icons/staking_on.png qt/res/icons/open.png \
+	qt/res/icons/staking_on.png qt/res/icons/open.png qt/res/icons/splash.png \
 	qt/res/icons/overview.png qt/res/icons/quit.png \
 	qt/res/icons/receive.png qt/res/icons/remove.png \
 	qt/res/icons/send.png qt/res/icons/synced.png \
@@ -2834,6 +2834,7 @@ leveldb_libmemenv_a_SOURCES =  \
 #  qt/res/icons/lock_open.png \
 #  qt/res/icons/staking_off.png \
 #  qt/res/icons/staking_on.png \
+#  qt/res/icons/splash.png \
 #  qt/res/icons/open.png \
 #  qt/res/icons/overview.png \
 #  qt/res/icons/quit.png \
