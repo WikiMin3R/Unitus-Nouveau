@@ -76,7 +76,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     // draw the splashscreen icon, expected size of PNG: 1280x832
     QRect rectIcon(QPoint(0,0), QSize(480,320));
 
-    const QSize requiredSize(1280,832);
+    const QSize requiredSize(1280,800);
     QPixmap icon(networkStyle->getSplashIcon().pixmap(requiredSize));
 
     pixPaint.drawPixmap(rectIcon, icon);
