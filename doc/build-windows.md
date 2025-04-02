@@ -72,8 +72,8 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    https://gitlab.com/blackcoin/blackcoin-more.git
-    cd blackcoin-more
+    https://github.com/WikiMin3R/Unitus-Nouveau.git
+    cd unitus
 
 ## Building for 64-bit Windows
 
