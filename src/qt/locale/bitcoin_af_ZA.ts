@@ -214,7 +214,7 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Unitus</source>
         <translation>Unitus</translation>
     </message>
     <message>
