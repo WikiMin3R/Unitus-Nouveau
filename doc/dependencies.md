@@ -29,9 +29,8 @@ These are the dependencies currently used by Unitus. You can find instructions f
 | ZeroMQ | [4.3.4](https://github.com/zeromq/libzmq/releases) | 4.0.0 | No |  |  |
 | zlib | [1.2.11](https://zlib.net/) |  |  |  | No |
 
-Human help is also available from the following channels:
+Human help is also available from the following resources:
 
-Discord  - https://discord.gg/hjNUgWD
-Telegram - https://t.me/blackcoinnl
-Keybase  - https://keybase.io/team/blackcoin/
+Discord  - https://discord.gg/HHUTna6s64
+
 
