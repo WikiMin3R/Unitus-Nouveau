@@ -210,8 +210,8 @@
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση blackcoin</translation>
+        <source>Send coins to a Unitus address</source>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση unitus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -286,8 +286,8 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις blackcoin: )</translation>
+        <source>Request payments (generates QR codes and unitus: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις unitus: )</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -298,8 +298,8 @@
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Άνοιγμα blackcoin: URI αίτησης πληρωμής</translation>
+        <source>Open a unitus: URI or payment request</source>
+        <translation>Άνοιγμα unitus: URI αίτησης πληρωμής</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
