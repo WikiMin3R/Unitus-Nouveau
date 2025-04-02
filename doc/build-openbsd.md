@@ -42,7 +42,7 @@ Do not use `pkg_add boost`! The boost version installed thus is compiled using t
 This makes it necessary to build boost, or at least the parts used by Unitus, manually:
 
 ```
-# Pick some path to install boost to, here we create a directory within the blackcoin directory
+# Pick some path to install boost to, here we create a directory within the unitus directory
 BITCOIN_ROOT=$(pwd)
 BOOST_PREFIX="${BITCOIN_ROOT}/boost"
 mkdir -p $BOOST_PREFIX
@@ -58,7 +58,7 @@ cd boost_1_61_0
 # Also here: https://gist.githubusercontent.com/laanwj/bf359281dc319b8ff2e1/raw/92250de8404b97bb99d72ab898f4a8cb35ae1ea3/patch-boost_test_impl_execution_monitor_ipp.patch
 patch -p0 < /usr/ports/devel/boost/patches/patch-boost_test_impl_execution_monitor_ipp
 
-# Build w/ minimum configuration necessary for blackcoin
+# Build w/ minimum configuration necessary for unitus
 echo 'using gcc : : eg++ : <cxxflags>"-fvisibility=hidden -fPIC" <linkflags>"" <archiver>"ar" <striper>"strip"  <ranlib>"ranlib" <rc>"" : ;' > user-config.jam
 config_opts="runtime-link=shared threadapi=pthread threading=multi link=static variant=release --layout=tagged --build-type=complete --user-config=user-config.jam -sNO_BZIP2=1"
 ./bootstrap.sh --without-icu --with-libraries=chrono,filesystem,program_options,system,thread,test
@@ -74,7 +74,7 @@ See "Berkeley DB" in [build_unix.md](build_unix.md) for instructions on how to b
 You cannot use the BerkeleyDB library from ports, for the same reason as boost above (g++/libstd++ incompatibility).
 
 ```bash
-# Pick some path to install BDB to, here we create a directory within the blackcoin directory
+# Pick some path to install BDB to, here we create a directory within the unitus directory
 BITCOIN_ROOT=$(pwd)
 BDB_PREFIX="${BITCOIN_ROOT}/build"
 mkdir -p $BDB_PREFIX
