@@ -211,8 +211,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BLACKCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITUS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR UNITUS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -525,8 +525,8 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and blackcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and unitus: URIs)</source>
+        <translation>Request payments (generates QR codes and unitus: URIs)</translation>
     </message>
     <message>
         <location line="+70"/>
@@ -540,8 +540,8 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Open a blackcoin: URI or payment request</translation>
+        <source>Open a unitus: URI or payment request</source>
+        <translation>Open a unitus: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1612,8 +1612,8 @@
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Cannot start blackcoin: click-to-pay handler</translation>
+        <source>Cannot start unitus: click-to-pay handler</source>
+        <translation>Cannot start unitus: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2636,8 +2636,8 @@
     <message>
         <location line="+30"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for blackcoin transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for unitus transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for unitus transactions than the network can process.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2962,8 +2962,8 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A message that was attached to the blackcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unitus network.</translation>
+        <source>A message that was attached to the unitus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>A message that was attached to the unitus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Unitus network.</translation>
     </message>
     <message>
         <location line="+448"/>
