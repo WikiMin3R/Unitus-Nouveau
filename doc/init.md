@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "blackcoin" user
+All three Linux startup configurations assume the existence of a "unitus" user
 and group.  They must be created before attempting to use these scripts.
 The macOS configuration assumes unitusd will be set up for the current user.
 
@@ -54,30 +54,30 @@ Paths
 All three configurations assume several paths that might need to be adjusted.
 
     Binary:              /usr/bin/unitusd
-    Configuration file:  /etc/blackcoin/unitus.conf
+    Configuration file:  /etc/unitus/unitus.conf
     Data directory:      /var/lib/unitusd
     PID file:            /var/run/unitusd/unitusd.pid (OpenRC and Upstart) or
                          /run/unitusd/unitusd.pid (systemd)
     Lock file:           /var/lock/subsys/unitusd (CentOS)
 
 The PID directory (if applicable) and data directory should both be owned by the
-blackcoin user and group. It is advised for security reasons to make the
-configuration file and data directory only readable by the blackcoin user and
+unitus user and group. It is advised for security reasons to make the
+configuration file and data directory only readable by the unitus user and
 group. Access to unitus-cli and other unitusd rpc clients can then be
 controlled by group membership.
 
 NOTE: When using the systemd .service file, the creation of the aforementioned
 directories and the setting of their permissions is automatically handled by
-systemd. Directories are given a permission of 710, giving the blackcoin group
+systemd. Directories are given a permission of 710, giving the unitus group
 access to files under it _if_ the files themselves give permission to the
-blackcoin group to do so (e.g. when `-sysperms` is specified). This does not allow
+unitus group to do so (e.g. when `-sysperms` is specified). This does not allow
 for the listing of files under the directory.
 
 NOTE: It is not currently possible to override `datadir` in
-`/etc/blackcoin/unitus.conf` with the current systemd, OpenRC, and Upstart init
+`/etc/unitus/unitus.conf` with the current systemd, OpenRC, and Upstart init
 files out-of-the-box. This is because the command line options specified in the
 init files take precedence over the configurations in
-`/etc/blackcoin/unitus.conf`. However, some init systems have their own
+`/etc/unitus/unitus.conf`. However, some init systems have their own
 configuration mechanisms that would allow for overriding the command line
 options specified in the init files (e.g. setting `UNITUSD_DATADIR` for
 OpenRC).
@@ -130,14 +130,14 @@ setting the UNITUSD and FLAGS environment variables in the file
 
 ### macOS
 
-Copy org.blackcoin.unitusd.plist into ~/Library/LaunchAgents. Load the launch agent by
+Copy org.unitus.unitusd.plist into ~/Library/LaunchAgents. Load the launch agent by
 running `launchctl load ~/Library/LaunchAgents/org.unitus.unitusd.plist`.
 
 This Launch Agent will cause unitusd to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run unitusd as the current user.
 You will need to modify org.unitus.unitusd.plist if you intend to use it as a
-Launch Daemon with a dedicated blackcoin user.
+Launch Daemon with a dedicated unitus user.
 
 Auto-respawn
 -----------------------------------
