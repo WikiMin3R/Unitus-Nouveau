@@ -3,9 +3,9 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-SRCDIR="/home/mcm/unitus/unitus-13.15.1"
-BUILDDIR="/home/mcm/unitus/unitus-13.15.1"
-EXEEXT=""
+SRCDIR="/root/Unitus-Nouveau"
+BUILDDIR="/root/Unitus-Nouveau"
+EXEEXT=".exe"
 
 # These will turn into comments if they were disabled when configuring.
 ENABLE_WALLET=1

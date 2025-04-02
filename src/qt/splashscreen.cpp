@@ -30,13 +30,13 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QWidget(0, f), curAlignment(0)
 {
     // set reference point, paddings
-    int paddingRight            = 5;
-    int paddingTop              = 30;
-    int titleVersionVSpace      = 17;
-    int titleCopyrightVSpace    = 260;
+    int paddingRight            = 385;
+    int paddingTop              = 260;
+    int titleVersionVSpace      = 10;
+    int titleCopyrightVSpace    = 35;
 
-    float fontFactor            = 1.0;
-    float devicePixelRatio      = 1.0;
+    float fontFactor            = 0.7;
+    float devicePixelRatio      = 0.7;
 #if QT_VERSION > 0x050100
     devicePixelRatio = ((QGuiApplication*)QCoreApplication::instance())->devicePixelRatio();
 #endif
@@ -73,9 +73,9 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QRect rGradient(QPoint(0,0), splashSize);
     pixPaint.fillRect(rGradient, gradient);
 
-    // draw the splashscreen icon, expected size of PNG: 1280x832
+    // draw the splashscreen icon, expected size of PNG: 1280x800
     QRect rectIcon(QPoint(0,0), QSize(480,320));
-
+    
     const QSize requiredSize(1280,800);
     QPixmap icon(networkStyle->getSplashIcon().pixmap(requiredSize));
 
