@@ -27,14 +27,14 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 Build Unitus
 ------------------------
 
-1. Clone the blackcoin source code and cd into `blackcoin-more`
+1. Clone the unitus source code and cd into `unitus`
 
-        git clone https://gitlab.com/blackcoin/blackcoin-more/
-        cd blackcoin-more
+        git https://github.com/WikiMin3R/Unitus-Nouveau.git
+        cd unitus
 
-2.  Build blackcoin-more:
+2.  Build unitus:
 
-    Configure and build the headless blackcoin binaries as well as the GUI (if Qt is found).
+    Configure and build the headless unitus binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -57,7 +57,7 @@ Unitus is now available at `./src/unitusd`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=blackcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Unitus/unitus.conf"
+    echo -e "rpcuser=unitusrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Unitus/unitus.conf"
 
     chmod 600 "/Users/${USER}/Library/Application Support/Unitus/unitus.conf"
 
@@ -70,13 +70,13 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/unitusd -daemon # Starts the blackcoin daemon.
+    ./src/unitusd -daemon # Starts the unitus daemon.
     ./src/unitus-cli --help # Outputs a list of command-line options.
     ./src/unitus-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Using Qt Creator as IDE
 ------------------------
-You can use Qt Creator as an IDE, for blackcoin development.
+You can use Qt Creator as an IDE, for unitus development.
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
