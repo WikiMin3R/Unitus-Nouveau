@@ -6,7 +6,7 @@ Some notes on how to build Unitus in Unix.
 
 Note
 ---------------------
-Always use absolute paths to configure and compile blackcoin and the dependencies,
+Always use absolute paths to configure and compile unitus and the dependencies,
 for example, when specifying the path of the dependency:
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
@@ -162,7 +162,7 @@ It is recommended to use Berkeley DB 6.2. If you have to build it yourself:
 ```bash
 BITCOIN_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the blackcoin directory
+# Pick some path to install BDB to, here we create a directory within the unitus directory
 BDB_PREFIX="${BITCOIN_ROOT}/build"
 mkdir -p $BDB_PREFIX
 
@@ -197,7 +197,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your blackcoin installation more secure by making certain attacks impossible to
+To help make your unitus installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -230,7 +230,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, blackcoin should be built with a non-executable stack
+    vulnerable buffers are found. By default, unitus should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
@@ -246,7 +246,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, blackcoin may be compiled in
+When the intention is to run only a P2P node without a wallet, unitus may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -268,8 +268,8 @@ Setup and Build Example: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://gitlab.com/blackcoin/blackcoin-more.git
-    cd blackcoin-more/
+    git clone https://github.com/WikiMin3R/Unitus-Nouveau.git
+    cd unitus/
     ./autogen.sh
     ./configure --disable-wallet --without-gui --without-miniupnpc
     make check
