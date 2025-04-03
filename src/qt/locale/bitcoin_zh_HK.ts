@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Blackcoin 了&lt;/b&gt;！</translation>
+        <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Unitus 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -311,7 +311,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>付款至一個 Blackcoin 位址</translation>
+        <translation>付款至一個 Unitus 位址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Blackcoin</translation>
+        <translation>Unitus</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>要求付款 (產生QR碼 blackcoin: URIs)</translation>
+        <translation>要求付款 (產生QR碼 unitus: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -441,7 +441,7 @@
     <name>QObject</name>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>輸入一個 Blackcoin 位址 (例如 %1)</translation>
+        <translation>輸入一個 Unitus 位址 (例如 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

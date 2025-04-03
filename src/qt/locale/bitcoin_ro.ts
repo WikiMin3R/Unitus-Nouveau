@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Trimite monedele către o adresă Blackcoin</translation>
+        <translation>Trimite monedele către o adresă Unitus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Blackcoin</translation>
+        <translation>Unitus</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -195,11 +195,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Blackcoin pentru a face dovada că îți aparțin.</translation>
+        <translation>Semnează mesajele cu adresa ta de Unitus pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Blackcoin specificată.</translation>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Unitus specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -215,11 +215,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și blackcoin: URIs)</translation>
+        <translation>Cerere plată (generează coduri QR și unitus: URIs)</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Deschide un blackcoin: URI sau cerere de plată</translation>
+        <translation>Deschide un unitus: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 behind</source>

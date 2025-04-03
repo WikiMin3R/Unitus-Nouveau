@@ -159,7 +159,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Pošalji novčiće na Blackcoin adresu</translation>
+        <translation>Pošalji novčiće na Unitus adresu</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Blackcoin</translation>
+        <translation>Unitus</translation>
     </message>
     <message>
         <source>Wallet</source>

@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et blackcoin: URIs)</translation>
+        <translation>Demander des paiements (générer QR codes et unitus: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ouvrir un blackcoin: URI ou demande de paiement</translation>
+        <translation>Ouvrir un unitus: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

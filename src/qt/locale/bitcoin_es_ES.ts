@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encripta su monedero y pierde su frase clave &lt;b&gt;PERDERÁ TODOS SUS BLACKCOINS&lt;/b&gt;!</translation>
+        <translation>Advertencia: Si encripta su monedero y pierde su frase clave &lt;b&gt;PERDERÁ TODOS SUS UNITUS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "blackcoin:")</translation>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "unitus:")</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,7 +427,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "blackcoin:" o una petición de pago</translation>
+        <translation>Abrir un identificador URI "unitus:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1251,7 +1251,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No se puede iniciar blackcoin: encargado click-para-pagar</translation>
+        <translation>No se puede iniciar unitus: encargado click-para-pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2185,7 +2185,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Un mensaje que se adjuntó a la blackcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Unitus.</translation>
+        <translation>Un mensaje que se adjuntó a la unitus: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Unitus.</translation>
     </message>
     <message>
         <source>Pay To:</source>

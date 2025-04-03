@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar monedas a una dirección blackcoin</translation>
+        <translation>Enviar monedas a una dirección unitus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and blackcoin: URls)</translation>
+        <translation>Pide pagos (genera codigos QR and unitus: URls)</translation>
     </message>
     <message>
         <source>Error</source>
