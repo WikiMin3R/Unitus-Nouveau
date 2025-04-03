@@ -55,7 +55,6 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QString font            = QApplication::font().toString();
 
     // create a bitmap according to device pixelratio
-//    QSize splashSize(480*devicePixelRatio,320*devicePixelRatio);
     QSize splashSize(512*devicePixelRatio,320*devicePixelRatio);
     pixmap = QPixmap(splashSize);
 
@@ -75,7 +74,6 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     pixPaint.fillRect(rGradient, gradient);
 
     // draw the splashscreen icon, expected size of PNG: 1280x800
-//    QRect rectIcon(QPoint(0,0), QSize(480,320));
     QRect rectIcon(QPoint(0,0), QSize(512,320));
     const QSize requiredSize(1280,800);
     QPixmap icon(networkStyle->getSplashIcon().pixmap(requiredSize));
