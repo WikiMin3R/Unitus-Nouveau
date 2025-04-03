@@ -30,7 +30,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QWidget(0, f), curAlignment(0)
 {
     // set reference point, paddings
-    int paddingRight            = 385;
+    int paddingRight            = 445;
     int paddingTop              = 260;
     int titleVersionVSpace      = 10;
     int titleCopyrightVSpace    = 35;
@@ -47,7 +47,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 
     QString copyrightTextBitcoin         = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString("The Bitcoin Core developers");
     QString copyrightTextBlackmore       = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(COPYRIGHT_YEAR) + QString("The Blackcoin More developers");
-    QString copyrightTextUnitus  = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(COPYRIGHT_YEAR) + QString("The Unitus developers");
+    QString copyrightTextUnitus  = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(COPYRIGHT_YEAR) + QString("The Unitus Core developers");
     // QString copyrightText   = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString::fromStdString(CopyrightHolders());
 
     QString titleAddText    = networkStyle->getTitleAddText();
@@ -55,7 +55,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QString font            = QApplication::font().toString();
 
     // create a bitmap according to device pixelratio
-    QSize splashSize(480*devicePixelRatio,320*devicePixelRatio);
+//    QSize splashSize(480*devicePixelRatio,320*devicePixelRatio);
+    QSize splashSize(512*devicePixelRatio,320*devicePixelRatio);
     pixmap = QPixmap(splashSize);
 
 #if QT_VERSION > 0x050100
@@ -74,8 +75,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     pixPaint.fillRect(rGradient, gradient);
 
     // draw the splashscreen icon, expected size of PNG: 1280x800
-    QRect rectIcon(QPoint(0,0), QSize(480,320));
-    
+//    QRect rectIcon(QPoint(0,0), QSize(480,320));
+    QRect rectIcon(QPoint(0,0), QSize(512,320));
     const QSize requiredSize(1280,800);
     QPixmap icon(networkStyle->getSplashIcon().pixmap(requiredSize));
 
