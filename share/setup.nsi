@@ -64,7 +64,7 @@ VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
 VIAddVersionKey FileVersion "13.15.1"
 VIAddVersionKey FileDescription "Installer for Unitus"
-VIAddVersionKey LegalCopyright "Copyright (C) 2009-2024 The Unitus developers"
+VIAddVersionKey LegalCopyright "Copyright (C) 2009-2025 The Unitus Core developers"
 InstallDirRegKey HKCU "${REGKEY}" Path
 ShowUninstDetails show
 
