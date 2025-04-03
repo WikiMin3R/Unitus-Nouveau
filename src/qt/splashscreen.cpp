@@ -35,8 +35,8 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     int titleVersionVSpace      = 10;
     int titleCopyrightVSpace    = 35;
 
-    float fontFactor            = 0.7;
-    float devicePixelRatio      = 0.7;
+    float fontFactor            = 0.5;
+    float devicePixelRatio      = 0.5;
 #if QT_VERSION > 0x050100
     devicePixelRatio = ((QGuiApplication*)QCoreApplication::instance())->devicePixelRatio();
 #endif
@@ -47,7 +47,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 
     QString copyrightTextBitcoin         = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString("The Bitcoin Core developers");
     QString copyrightTextBlackmore       = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(COPYRIGHT_YEAR) + QString("The Blackcoin More developers");
-    QString copyrightTextUnitus  = QChar(0xA9)+QString(" %1-%2 ").arg(2020).arg(COPYRIGHT_YEAR) + QString("The Unitus developers");
+    QString copyrightTextUnitus  = QChar(0xA9)+QString(" %1-%2 ").arg(2014).arg(COPYRIGHT_YEAR) + QString("The Unitus developers");
     // QString copyrightText   = QChar(0xA9)+QString(" %1-%2 ").arg(2009).arg(COPYRIGHT_YEAR) + QString::fromStdString(CopyrightHolders());
 
     QString titleAddText    = networkStyle->getTitleAddText();

@@ -14,17 +14,17 @@ static void CashAddrEncode(benchmark::State &state) {
                                    139, 2,  215, 100, 91,  38,  11,  141,
                                    253, 40, 117, 21,  16,  90,  200, 24};
     while (state.KeepRunning()) {
-        cashaddr::Encode("blackcoin", buffer);
+        cashaddr::Encode("unitus", buffer);
     }
 }
 
 static void CashAddrDecode(benchmark::State &state) {
     const char *addrWithPrefix =
-        "blackcoin:qprnwmr02d7ky9m693qufj5mgkpf4wvssv0w86tkjd";
+        "unitus:qprnwmr02d7ky9m693qufj5mgkpf4wvssv0w86tkjd";
     const char *addrNoPrefix = "qprnwmr02d7ky9m693qufj5mgkpf4wvssv0w86tkjd";
     while (state.KeepRunning()) {
-        cashaddr::Decode(addrWithPrefix, "blackcoin");
-        cashaddr::Decode(addrNoPrefix, "blackcoin");
+        cashaddr::Decode(addrWithPrefix, "unitus");
+        cashaddr::Decode(addrNoPrefix, "unitus");
     }
 }
 
